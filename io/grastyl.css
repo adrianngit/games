@@ -1,0 +1,353 @@
+body
+{
+	background-color: black;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	color: white;
+}
+
+/* SZUBIENICA */
+#pojemnik
+{
+	height:830px;
+	width:1510px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 7px;;
+}
+
+#glosnosc
+{
+	width:70px;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-bottom: 5px;
+}
+#haslo
+{
+	height:150px;
+	width:1500px;
+	text-align: center;
+	font-size: 75px;
+	font-family: 'Spline Sans Mono', monospace;
+	font-weight: 700;
+}
+
+#licznik
+{
+	height:680px;
+	width:740px;
+	float:left;
+}
+
+#czas
+{
+	float:left;
+	height:80px;
+	width:200px;
+	margin-left: 80px;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 30px;
+}
+#proby
+{
+	float:right;
+	height:80px;
+	width:320px;
+	margin-right: 80px;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 30px;
+}
+#obraz
+{
+	margin-top: 50px;
+	margin-left: 50px;
+	padding-left: 20px;
+	padding-top: 40px;
+	height:450px;
+	width:620px;
+	clear:both;
+}
+#klawiatura
+{
+	padding-top: 10px;
+	height:680px;
+	width:750px;
+	float:left;
+}
+/* SZUBIENICA WPROWADZENIE HASLA(INPUT)*/
+#wprowadzeniehasla
+{
+	width: 60%;
+	height: 80%;
+	margin: auto;
+	font-size: 20px;
+	text-align: center;
+}
+
+#wpiszhaslo {
+     padding: 4px;
+     font-size: 30px;
+	 border:5px solid #d5d5d5;
+     background-color: #FFFFFF;
+     color: #000000;
+     border-radius: 15px;
+     margin-top: 10px;
+}
+
+#wpiszhaslo::placeholder
+{
+	color: grey;
+	text-align: center;
+	font-size: 25px;
+	font-style: italic;
+}
+
+#wpiszhaslo:focus {
+     outline:none;
+	 box-shadow: 0px 0px 5px rgba(255,255,255,.75);
+     text-shadow: 0px 0px 0px rgba(66,66,66,.75);
+}
+
+.button {
+	box-shadow: 0px 10px 14px -50px #185d66;
+	background:linear-gradient(to bottom, #80aebd 5%, #275259 100%);
+	background-color:#80aebd;
+	border-radius:20px;
+	border:2px solid #d0d4d2;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:25px;
+	font-weight:bold;
+	padding:20px 60px;
+	text-decoration:none;
+	width: 450px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.button:active {
+	position:relative;
+	top:2px;
+}
+
+.button:hover {
+	opacity:0.8;
+}
+
+.litera
+{
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	margin: 15px;
+	padding-top: 5px;
+	border: 3px solid gray;
+	float: left;
+	cursor: pointer;
+	font-size: 60px;
+	border-radius: 15px;
+	color: #888888;
+}
+
+.litera:hover
+{
+	background-color: #666666;
+	color: #999999;
+}
+
+/* SZUBIENICA WYBRANIE KATEGORI HASLA(SELECT)*/
+select
+{
+	width: 450px;
+	height: 50px;
+	border-radius:20px;
+	font-family:Verdana;
+	font-size:25px;
+	text-align: center;
+	margin-bottom: 25px;
+	margin-top: 5px;
+}
+
+
+/* SZUBIENICA PODSUMOWANIE */
+.buttonpodsumowanie {
+	box-shadow:inset 0px 0px 0px 0px #f29c93;
+	border-radius:15px;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:15px;
+	font-weight:bold;
+	padding:10px 50px;
+	text-decoration:none;
+	width: 450px;
+	height: 75px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.buttonpodsumowanie:active {
+	position:relative;
+	top:2px;
+}
+
+.buttonpodsumowanie:hover {
+	opacity: 0.8;
+}
+
+/* MENU */
+section
+{
+	margin: auto;
+	width: 90%;
+	height: 550px;
+}
+
+section h4
+{
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+section p
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+section i
+{
+	font-size: 20px;
+}
+
+.h1menu
+{
+  font-size: 75px;
+  font-weight: 800;
+  margin: 60px 0px 60px 0px;
+  color: #ff0000;
+  background-image: -webkit-linear-gradient(270deg, #ff0000 0%, #000000 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+.gra
+{
+	font-size: 30px;
+	height: 550px;
+	width: 33%;
+	float: left;
+	color: white;
+	text-align: center;
+}
+
+.zdjecie
+{
+	width: 370px;
+	height: 450px;
+	margin: auto;
+	transition: all 0.7s ease-in-out;
+}
+
+.zdjecie:hover
+{
+	transform: scale(0.95);
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+.zdjecie .info
+{
+	position: absolute;
+	display: block;
+	width: 370px;
+	height: 120px;
+	background-color: #111;
+	left: 0px;
+	bottom: 0px;
+	opacity: 0;
+	transition: opacity 0.7s ease-in-out;
+}
+
+.zdjecie:hover .info
+{
+	opacity: 0.7;
+}
+
+
+/* EKRAN ŁADOWANIA */
+
+#loading
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: black;
+	height: 100%;
+	width: 100%;
+	z-index: 2;
+}
+#tytul
+{
+	font-family: 'Spline Sans Mono', monospace;
+	font-weight: 800;
+	margin-top: 50px;
+	width: 99%;
+	height: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+	font-size: 250px;
+	background-image: url("tlo.gif");
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	z-index: 2;
+	position: absolute;
+	letter-spacing: 0px;
+}
+#tytul2
+{
+	font-family: 'Spline Sans Mono', monospace;
+	font-weight: 800;
+	margin-top: 50px;
+	width: 99.5%;
+	height: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+	font-size: 250px;
+	z-index: 1; 
+	color: red;
+	position: absolute;
+	-moz-opacity: 0.5; 
+	filter: alpha(opacity=255);	
+	letter-spacing: 0px;
+}
+#pasek
+{
+	margin-top: 25%;
+	width: 10%;
+	height: 20%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.disppear
+{
+	animation: vanish 1s forwards;
+}
+@keyframes vanish {
+	100%{
+		opacity: 0;
+		visibility: hidden;	
+	}
+}
+

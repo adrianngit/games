@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:wght@700&family=Xanh+Mono&display=swap" rel="stylesheet">
+<link href="grastyl.css" rel="stylesheet">
+<link href="css/fontello.css" rel="stylesheet">
+<title>GRA - SZUBIENICA</title>
+</head>
+<body bgcolor="black">
+
+<!-- GRA -->
+<div id="glosnosc" name="a" onclick="glosnosc()"><i class="icon-volume"></i></div>
+<div id="pojemnik">
+
+	<div id="haslo"></div>
+	<div id="licznik">	
+		<div id="czas">CZAS: <span id="czass">00:00</span> </div><div id="proby">POZOSTAŁO 9 SZANS</div>
+		<div id="obraz"><img src="img/s0.jpg"></div>
+	</div>
+	<div id="klawiatura">
+		<div id="wprowadzeniehasla"><label for="wpiszhaslo"><h1 style="font-size:70px; margin-bottom: 5px; margin-top: 5px;">SZUBIENICA</h1></label>
+			<i><b>Zasady gry</b> - Odgadnij hasło w jak w jak najkrótszym czasie. Możesz pomylić się jedynie 9 razy. POWODZENIA!</i><br><br>
+			<span id="lblError" style="color: red"></span><br>
+			<b>Wprowadź hasło poniżej</b>
+			<input type="password" id="wpiszhaslo" placeholder="--> WPISZ HASŁO <--" maxlength="30" onkeypress="return Validate(event);"><br><br>
+			<label><input type="checkbox" onclick="pokazhaslo()"> Pokaz haslo</label>
+			<button class="button">ZACZNIJ GRĘ</button>
+			<a href="index.html"><button class="button">WRÓĆ DO MENU</button></a>
+		</div>
+	</div>
+
+<div style="clear:both;"></div>
+<script src="java.js" defer></script>
+</div>
+</body>
+</html>
